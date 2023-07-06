@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "What is the capital of France?",
+    "image": "avengers.webp",
     "options": [
       {
         "answer": "Avengers",
@@ -27,7 +27,7 @@
 
   {
     "id": 2,
-    "question": "What is the capital of Ireland?",
+    "image": "goonies.webp",
     "options": [
       {
         "answer": "Little Rascal",
@@ -54,7 +54,7 @@
 
 {
   "id": 3,
-  "question": "What is the capital of England?",
+  "image": "ironman.jpg",
   "options": [
     {
       "answer": "Miss Pot",
@@ -80,7 +80,7 @@
 
 {
   "id": 4,
-  "question": "What is the capital of England?",
+  "image": "matrix.jpg",
   "options": [
     {
       "answer": "Man in Black",
@@ -106,7 +106,7 @@
 
 {
   "id": 5,
-  "question": "What is the capital of England?",
+  "image": "shrek.jpg",
   "options": [
     {
       "answer": "Soylent Green",

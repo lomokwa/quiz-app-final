@@ -3,11 +3,11 @@ import NavMenu from "./NavMenu";
 
 export default function AppLayout({ children }) {
   return (
-    <>
-      <NavMenu />
+    <div id="main-container">
+      {/* <NavMenu /> */}
       {children}
       <Footer />
-    </>
+    </div>
   );
 };
  
