@@ -1,5 +1,5 @@
 import { useState } from "react"
-import data from "../../data/quiz.json"
+import data from "../../data/movie.json"
 import Card from "./Card";
 import Result from "./Result";
 
