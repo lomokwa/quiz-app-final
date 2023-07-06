@@ -1,4 +1,4 @@
-export default function Card({quizLength, questionId, data}) {
+export default function Card({quizLength, questionId, handleResult, data}) {
   return(
     <div className="quiz-card">
       <p>{questionId + 1}/{quizLength}</p>
@@ -9,7 +9,8 @@ export default function Card({quizLength, questionId, data}) {
           data[questionId].options.map(
             (element, index) => {
               return (
-                <li key={index}>{element.answer}</li>
+                <li key={index} 
+                onClick={ () => {handleResult(element.isCorrect)} }>{element.answer}</li>
               )
             }
           )
