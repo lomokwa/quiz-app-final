@@ -3,6 +3,5 @@ export default function Footer() {
     <footer>
       <p><a href="https://github.com/lomokwa/quiz-app-final">GitHub</a></p>
     </footer>
-  )
-  
-}
+  );
+};
